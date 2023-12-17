@@ -30,4 +30,3 @@ def matrix_divided(matrix, div):
         for j in range(len(matrix[i])):
             mat_new[i].append(round(matrix[i][j] / div, 2))
     return mat_new
-
